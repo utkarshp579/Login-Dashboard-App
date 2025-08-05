@@ -1,4 +1,4 @@
-// src/components/SignupForm.tsx
+
 import React, { useState } from "react";
 import { graphqlRequest } from "../api/graphql";
 import styles from "../styles/styles";
