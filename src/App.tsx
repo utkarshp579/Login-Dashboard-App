@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import LoginForm from "./components/LoginForm";
 import SignupForm from "./components/SignupForm";
 import Dashboard from "./components/Dashboard";
+// import Dashboard2 from "./components/DashBoard2"; 
 import { useAuth } from "./auth/useAuth";
 import styles from "./styles/styles";
 
