@@ -1,4 +1,4 @@
-// src/components/LoginForm.tsx
+
 import React, { useState } from "react";
 import { graphqlRequest } from "../api/graphql";
 import { useAuth } from "../auth/useAuth";

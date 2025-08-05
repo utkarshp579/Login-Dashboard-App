@@ -1,4 +1,4 @@
-// src/api/graphql.ts
+
 const GRAPHQL_ENDPOINT = "http://13.200.172.225:1337/graphql";
 
 export const graphqlRequest = async (query: string, variables?: any) => {

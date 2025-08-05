@@ -1,0 +1,27 @@
+✅ Task 02: Login, Signup, and Dashboard with GraphQL
+    Goal: Build a login/signup system and a post-login dashboard.
+
+Requirements:
+    Login & Signup Pages using provided GraphQL APIs
+    Dashboard Page (after successful login) to:
+    Fetch data from the user-db collection using a GraphQL query
+    Display user data (name, email, role, etc.) in a table
+
+GraphQL Endpoint:
+🔗 http://13.200.172.225:1337/graphql
+
+Test Credentials:
+    Login:
+        Username: testuser
+    Email: test@gmail.com
+        Password: 1234567989
+
+Signup:
+    Use the following default values:
+        Role: sailor
+        Confirmed: true
+
+Tech Stack:
+    React
+    TypeScript
+    GraphQL APIs

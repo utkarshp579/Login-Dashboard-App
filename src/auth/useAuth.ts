@@ -1,4 +1,4 @@
-// src/auth/useAuth.ts
+
 import { useContext } from "react";
 import { AuthContext } from "./AuthContext";
 
@@ -9,3 +9,10 @@ export const useAuth = () => {
   }
   return context;
 };
+
+
+// defining a custom hook
+// instead of
+//const { login } = useContext(AuthContext);
+// write this 
+// const { login } = useAuth();

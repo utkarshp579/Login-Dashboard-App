@@ -16,7 +16,7 @@ const App: React.FC = () => {
     if (token && userData) {
       login(JSON.parse(userData), token);
     }
-  }, []);
+  }, []); // Run this effect only once, when the component first mounts
 
   if (isAuthenticated) {
     return <Dashboard />;
